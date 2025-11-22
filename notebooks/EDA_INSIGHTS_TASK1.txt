@@ -1,0 +1,45 @@
+
+✅ EDA INSIGHTS SUMMARY (Task 1)
+
+1. Headline Lengths
+   - Average headline length: ~80 characters
+   - Distribution: Strongly right-skewed; most headlines fall between 40–100 characters.
+
+2. Top Publishers
+   - Benzinga Newsdesk dominates output by a large margin, with over 300k articles.
+   - Followed by individual contributors (e.g., Lisa Levin, ETF Professor), with significant article counts reflecting their impact on the dataset.
+
+3. Publication Timing
+   - Clear concentration around 9–11 AM UTC (5–7 AM EST), aligning with US pre-market activity.
+   - Peak Publishing Hours (UTC):
+     - 14:00: 2529 articles
+     - 13:00: 2092 articles
+     - 15:00: 1956 articles
+   - Articles by Hour of Day (UTC): 
+     - The distribution shows a pronounced peak between hours 13 and 15, indicating heavy article output during the pre-market trading hours.
+   - This aligns with the relevance of timings for stock trading.
+
+4. Event-Driven Spikes
+   - Significant spikes during major market events:
+     - March 2020: COVID-19 crash
+     - January 2021: GameStop/Reddit short squeeze
+   - Top 5 Spike Dates:
+     - 2020-03-12: 333 articles
+     - 2020-06-05: 328 articles
+     - 2020-06-10: 288 articles
+     - 2020-05-07: 285 articles
+     - 2020-06-08: 283 articles
+   - Indicates strong sensitivity to market turbulence.
+
+5. Domain Concentration
+   - Over 70% of articles originate from benzinga.com.
+   - The dataset is heavily skewed toward a single publisher ecosystem.
+
+6. Common Words in Headlines
+   - Frequent words reflect market-driven reporting: "Shares," "Stock," "Earnings," "Up," "Down," etc.
+   - Top 20 Most Common Words: 
+     - The frequency of words such as "stocks," "shares," and "trading" shows a focus on financial activities, illustrating the dataset's emphasis on market movement.
+   - Word Cloud Visualization: 
+     - Provides a visual representation of the most commonly used words in headlines, highlighting terms related to price movements and market reactions.
+
+These patterns highlight how news is concentrated around the U.S. market open, major events, and a few dominant publishers, illustrating the landscape of financial reporting.
