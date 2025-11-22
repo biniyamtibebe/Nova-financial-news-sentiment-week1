@@ -12,8 +12,8 @@ To perform exploratory data analysis (EDA) on financial news headlines and to es
 
 ### Steps Completed
 
-.✅ Loaded the dataset raw_analyst_ratings.csv containing 1.4M financial news headlines.
-.✅ Set up a Python virtual environment (venv) and installed required packages listed in requirements.txt.
-.✅ Activated the virtual environment for development.
-.✅ Started a Jupyter Notebook for interactive data analysis.
-.✅ Conducted initial exploratory data analysis to understand data distribution and quality.
+    ✅ Loaded the dataset raw_analyst_ratings.csv containing 1.4M financial news headlines.
+    ✅ Set up a Python virtual environment (venv) and installed the required packages listed in requirements.txt.
+    ✅ Activated the virtual environment for development.
+    ✅ Started a Jupyter Notebook for interactive data analysis.
+    ✅ Conducted initial exploratory data analysis to understand data distribution and quality.
