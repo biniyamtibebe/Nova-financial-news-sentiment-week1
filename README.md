@@ -12,11 +12,11 @@ To perform exploratory data analysis (EDA) on financial news headlines and to es
 
 ### Steps Completed
 
-.✅ Loaded the dataset raw_analyst_ratings.csv containing 1.4M financial news headlines.
-.✅ Set up a Python virtual environment (venv) and installed required packages listed in requirements.txt.
-.✅ Activated the virtual environment for development.
-.✅ Started a Jupyter Notebook for interactive data analysis.
-.✅ Conducted initial exploratory data analysis to understand data distribution and quality.
+- ✅ Loaded the dataset raw_analyst_ratings.csv containing 1.4M financial news headlines.
+- ✅ Set up a Python virtual environment (venv) and installed required packages listed in requirements.txt.
+- ✅ Activated the virtual environment for development.
+- ✅ Started a Jupyter Notebook for interactive data analysis.
+- ✅ Conducted initial exploratory data analysis to understand data distribution and quality.
 
 
 ---
@@ -64,3 +64,21 @@ All plots are interactive (zoom, pan, hover) and located in `plots/task2/`:
 - `AAPL_macd.html`             – Full MACD (line + signal + histogram)  
 - `AAPL_news_overlay.html`     – Price chart with red dotted lines on extreme news-volume days  
 
+---
+
+### Task 3 – News Sentiment vs Stock Returns Correlation (COMPLETED)
+
+**Branch:** `task-3`  
+**Key Results:**
+- VADER sentiment applied to 1.4M headlines
+- Daily sentiment aggregated and aligned with trading days
+- Next-day sentiment → return correlation calculated for top stocks
+- Strongest signals: **AAPL (r ≈ 0.18–0.24)**, **TSLA**, **FB** on lagged basis
+- Clear evidence that positive news tone predicts positive next-day returns
+
+**Notebook:** `notebooks/task3_sentiment_correlation.ipynb`  
+**Results:** `results/correlation_summary.csv`  
+**Best Plot:** `plots/task3/AAPL_sentiment_correlation.png`
+
+**Conclusion:**  
+Financial news sentiment is a statistically significant leading indicator of short-term stock price movements — especially when lagged by one day.
